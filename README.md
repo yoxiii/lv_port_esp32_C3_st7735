@@ -1,15 +1,6 @@
 # LVGL project for ESP32
 
 ## 添加ESP32-C3的支持，当为ESP32-C3时配置选项中SPI只能选择CONFIG_LV_TFT_DISPLAY_SPI_SPI2_HOST
-| ESP32    | LCD  | 说明                                        |
-| -------- | ---- | ------------------------------------------- |
-| REST     | 18   | 上电后必须进行复位                          |
-| SPI_CS   | 10   | 当片选信号为"L"时，数据/指令 I/O 口使能。   |
-| SPI_CLK  | 6    | SPI时钟                                     |
-| SPI_DC   | 9    | 指令/数据 选择端口:“H” : 数据 ;“L” : 指令。 |
-| SPI_MOSI | 7    | 主机输出从机输入         
-
-![示例](./images/vscode/IMG_6019.jpg)
 
 
 This is an ESP32 demo project showcasing LVGL v7 with support for several display controllers and touch controllers.
