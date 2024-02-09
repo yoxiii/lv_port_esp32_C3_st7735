@@ -169,6 +169,7 @@ At this momement, the buffers are dynamicaly allocated with DMA capabilty and me
 </table>
 
 勾选`Handle Backlight and TFT power for M5StickC using AXP192.`
+![Example_monochrome demo with ESP32C3 using LVGL](images/esp32c3_st7735.jpg)
 
 [LVGL文档](https://docs.lvgl.io/latest/en/html/get-started/espressif.html)
 
