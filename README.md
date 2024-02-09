@@ -148,6 +148,27 @@ Moreover, static allocation to external PSRAM is not yet supported
 At this momement, the buffers are dynamicaly allocated with DMA capabilty and memory allocator handles the rest.
 
 # ESP32-C3 LVGL移植
+### st7735 - SPI2_HOST
+<table>
+  <tr>
+    <th>MOSI</th>
+    <th>CLK</th>
+    <th>CS</th>
+    <th>DC</th>
+    <th>RST</th>
+    <th>BCKL</th>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>2</td>
+    <td>7</td>
+    <td>6</td>
+    <td>10</td>
+    <td>11</td>
+  </tr>
+</table>
+
+勾选`Handle Backlight and TFT power for M5StickC using AXP192.`
 
 [LVGL文档](https://docs.lvgl.io/latest/en/html/get-started/espressif.html)
 
